@@ -40,13 +40,15 @@ a{
     flex-direction: column;
     gap: 16px;
 }
-.sign-1{
+.sign-1,
+.sign-2{
     width: 100px;
     height: 32px;
     border-radius: 8px;
     color: #ffffff;
     background-color: #3b82f6;
     font-weight: bold;
+    border-color: #ffffff;
 }
 .hero-main{
     font-size: 48px;
@@ -103,4 +105,31 @@ a{
     align-self: flex-end;
     font-size:24px;
     font-weight: bold;
+}
+.section-four{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0;
+}
+.call{
+    display: flex;
+    background-color: #3b82f6;
+    padding: 48px 82px;
+    gap: 16px;
+    border-radius: 30px;
+}
+.call-head{
+    font-weight: bold ;
+}
+.sign-2{
+    align-self: center;
+}
+.footer{
+    display: flex;
+    background-color: #1f2937;
+    justify-content: center;
+    text-align: center;
+    color: white;
 }
