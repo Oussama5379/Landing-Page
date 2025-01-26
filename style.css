@@ -24,3 +24,36 @@ a{
     text-decoration: none;
     margin:16px;
 }
+.first-img{
+    height: 240px;
+    width: 400px;
+    border-radius: 30px;
+}
+.hero{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 48px;
+}
+.hero-left{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.sign-1{
+    width: 100px;
+    height: 32px;
+    border-radius: 8px;
+    color: #ffffff;
+    background-color: #3b82f6;
+    font-weight: bold;
+}
+.hero-main{
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+.hero-secondary{
+    font-size: 18px;
+    color: #E5E7EB;
+}
